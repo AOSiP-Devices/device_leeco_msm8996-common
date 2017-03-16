@@ -198,3 +198,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.VT_ENABLE=1 \
     persist.radio.VT_HYBRID_ENABLE=1 \
     persist.dbg.wfc_avail_ovr=1
+
+
+# Higher fling velocities
+# for smoother scrolling and better responsiveness
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.min.fling_velocity=160
+    ro.max.fling_velocity=20000
+
