@@ -199,7 +199,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.VT_HYBRID_ENABLE=1 \
     persist.dbg.wfc_avail_ovr=1
 
-
 # Higher fling velocities
 # for smoother scrolling and better responsiveness
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -209,7 +208,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #ui-trends
 PRODUCT_PROPERTY_OVERRIDES += \
      sys.use_fifo_ui=1
-
 
 # touch optimize
 PRODUCT_PROPERTY_OVERRIDES += \
