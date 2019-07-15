@@ -84,7 +84,9 @@ int main() {
             LOG(WARNING) << "DeviceInfo: ZL1";
             hasRGBlight = true;
         } else if (deviceInfo.find("le_x2") == 0) {
-            LOG(WARNING) << "DeviceInfo: X2";
+            LOG(WARNING) << "DeviceInfo: X10";
+		} else if (deviceInfo.find("max_plus") == 0) {
+            LOG(WARNING) << "DeviceInfo: X850";
         } else {
             LOG(ERROR) << "DeviceInfo: UNKNOWN";
             return 1;
